@@ -38,3 +38,20 @@ a {
     /* le agregamos un margen a la izquiersa de 10 pixeles */
      margin-left: 10px;
 }   
+
+table, th, td {
+    border: solid rgb(238, 225, 213);
+    padding: 15px;
+}
+th {
+    background-color:rgb(238, 225, 213);
+    color: rgb(139, 115, 115);
+    font-size: large;
+    text-align: center;
+  }
+td {
+    background-color:rgba(238, 225, 213, 0.158);
+    color: rgb(238, 225, 213);
+    font-size: medium;
+    text-align: left;
+  }
