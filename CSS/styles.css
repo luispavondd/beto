@@ -1,6 +1,7 @@
 body {
     background-color: rgb(139, 115, 115);
     color:rgb(238, 225, 213);
+    font-family: AzereMono, Arial, Helvetica, sans-serif;
 }
 
 img {
@@ -55,3 +56,13 @@ td {
     font-size: medium;
     text-align: left;
   }
+  @font-face {
+    /* font-family es la propiedad que le asigna un nombre a la nueva fuente.
+    El nombre es a gusto de cada quien. Por convencion, se pone el nombre 
+    real, en este caso, AkayaKanadaka */
+    font-family: AzereMono;
+    /* La propiedad src define la ubicación de la fuente a utilizar. Sea
+    cual sea que utilices, prueba primero el archivo que tenga en su
+    nombre Regular */
+    src: url('../Fonts/AzeretMono-VariableFont_wght.ttf')
+}
