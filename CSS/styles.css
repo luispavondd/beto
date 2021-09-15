@@ -4,10 +4,13 @@ body {
     font-family: AzereMono, Arial, Helvetica, sans-serif;
 }
 
-img {
+img#Logo {
     width: 200px;
 }
 
+.t-50 {
+    width: 50%
+}
 header {
     display: flex;
 }   
