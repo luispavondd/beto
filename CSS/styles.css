@@ -71,8 +71,8 @@ td {
 }
 article {
     text-align: center;
-    margin: 32px auto;
-    width: 80%;
+    /* margin: 32px auto; */
+    /* width: 80%; */
 }
 .column img {
     margin-top: 8px;
@@ -92,4 +92,32 @@ article {
 }
 footer {
     text-align: center;
+}
+div#slider {
+    background-image: url('../images/release_1_hogwarts.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: calc(100vh - 160px);
+    animation: changegojira 5s infinite;
+    animation-delay: o.3s;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+}
+@keyframes changegojira {
+    0% {
+        background-image: url('../images/IMG_6266.jpg');
+    }
+    25% {
+        background-image: url('../images/IMG_6267.jpg');
+    }
+    50% {
+        background-image: url('../images/IMG_6269.jpg');
+    }
+    75% {
+        background-image: url('../images/IMG_6271.jpg');
+    }
+    100% {
+        background-image: url('../images/IMG_6273.jpg');
+    }
 }
