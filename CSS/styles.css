@@ -69,3 +69,27 @@ td {
     nombre Regular */
     src: url('../Fonts/AzeretMono-VariableFont_wght.ttf')
 }
+article {
+    text-align: center;
+    margin: 32px auto;
+    width: 80%;
+}
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+.column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+    margin: 0 auto;
+}
+footer {
+    text-align: center;
+}
