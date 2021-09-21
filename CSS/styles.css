@@ -121,3 +121,35 @@ div#slider {
         background-image: url('../images/IMG_6273.jpg');
     }
 }
+div {
+    width: 100px;
+    height: 100px;
+    border: 1px solid;
+}
+.red {
+    background-color: red;
+}
+.blue {
+    background-color: blue;
+}
+.green {
+    background-color: green;
+}
+.margin {
+    margin: 16px;
+}
+.padding {
+    padding: 16px;
+}
+.margin-x {
+    margin: 0 -16px;
+}
+.margin-y {
+    margin: -16px 0;
+}
+.padding-x {
+    padding: 0 16px 0 16px;
+}
+.padding-y {
+    padding: 16px 0 16px 0;
+}
