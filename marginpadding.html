@@ -4,11 +4,45 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width. initial-scale=1.0">
-    <title>Mi primera página web</title>
-    <link rel="stylesheet" href="css/styles.css">
+    <title>Margen y relleno</title>
+    <style>
+        div {
+            width: 100px;
+            height: 100px;
+            border: 1px solid;
+        }
+        .red {
+            background-color: red;
+        }
+        .blue {
+            background-color: blue;
+        }
+        .green {
+            background-color: green;
+        }
+        .margin {
+            margin: 16px;
+        }
+        .padding {
+            padding: 16px;
+        }
+        .margin-x {
+            margin: 0 -16px;
+        }
+        .margin-y {
+            margin: -16px 0;
+        }
+        .padding-x {
+            padding: 0 16px 0 16px;
+        }
+        .padding-y {
+            padding: 16px 0 16px 0;
+        }
+    </style>
 </head>
-<body>
-    <div class="red"></div>
-    <div class="blue"></div>
-    <div class="green"></div>
+ <body>
+    <div class="red margin-x"></div>
+        <div class="blue margin padding" ></div>
+        <div class="green margin-y padding-x"></div>
 </body>
+</html>
