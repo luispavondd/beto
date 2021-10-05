@@ -1,0 +1,5 @@
+body {
+    background-color:aliceblue (139, 115, 115);
+    color:black(238, 225, 213);
+    font-family: AzereMono, Arial, Helvetica, sans-serif;
+}
