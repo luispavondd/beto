@@ -1,0 +1,92 @@
+@font-face {
+    font-family: uno;
+    src: url('../EXTRAORDINARIO/fonts/Segoe\ UI.ttf')
+}
+@font-face {
+    font-family: dos;
+    src: url('../EXTRAORDINARIO/fonts/Segoe\ UI\ Bold.ttf')
+}
+@font-face {
+    font-family: tres;
+    src: url('../EXTRAORDINARIO/fonts/Segoe\ UI\ Bold\ Italic.ttf')
+}
+@font-face {
+    font-family: cuatro;
+    src: url('../EXTRAORDINARIO/fonts/Segoe\ UI\ Italic.ttf')
+}
+body {
+    font-family: uno;
+    margin: 0;
+    color: #00101c;
+}
+header {
+    background-color: #055d9c;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 16px;
+    padding-right: 16px;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: bold;
+}
+
+img#logo {
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-image:url("../EXTRAORDINARIO/logo/logo.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-right: 8px;
+}
+span#flex {
+    flex: 1;
+}
+header#button {
+background-color: #055d9c;
+border: none;
+color: white;
+font-size: 1px;
+padding-top: 8px;
+padding-bottom: 8px;
+padding-right: 16px;
+padding-right: 16px;
+}
+main{
+    display: flex;
+    width: 400px+;
+    margin-top: 90px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+}
+#title {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 32px;
+}
+#card {
+    background-color: white;
+    margin: 1px solid #d9d9d9;
+    padding: 24px;
+}
+#label {
+    font-size: .875rem bold;
+}
+input#card {
+    width: 100%-8px;
+    border: none;
+    background-color: #ab235a;
+    color: white;
+    font-size: 14px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 14px;
+    padding-left: 14px;
+    margin-top: 8px;
+    height: 40px;
+}
+a {
+    color: #ab235a;
+}
